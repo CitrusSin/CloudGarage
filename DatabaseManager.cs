@@ -120,7 +120,7 @@ namespace CloudGarage
                     "insert into `{0}` " +
                     "(steamId, vehicleName, vehicleId, vehicleHealth, vehicleFuel, vehicleBatteryCharge, isLocked, groupLockId) " +
                     "values " +
-                    "(\"{1}\", \"{2}\", {3}, {4}, {5}, {6}, {7}, {8});",
+                    "({1}, \"{2}\", {3}, {4}, {5}, {6}, {7}, {8});",
                     config.DatabaseTableName,
                     steamID.ToString(),
                     vehicleName,
